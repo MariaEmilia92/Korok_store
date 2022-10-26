@@ -5,6 +5,9 @@ body{
 .boxsize{
     padding: 20px !important
 }
+/* .css-11xjhba-MuiListItemAvatar-root { */
+/* margin-left: 15px; */
+/* } */
 
 .stackQuantity input{
     width: 30px;
@@ -19,12 +22,6 @@ img {
     -webkit-appearance: none;
     margin: 0;
 }
-
-/* Firefox */
-.stackQuantity input[type=number] {
-    -moz-appearance: textfield;
-}
-
 
 .stackImage div{
     width: 100px;

@@ -1,6 +1,7 @@
 import '../../assets/css/auth.css';
 import cover from '../../assets/img/cover-login.png';
 import logo from '../../assets/img/logo.png';
+import "./login.css";
 
 import { Link } from 'react-router-dom';
 
@@ -76,7 +77,7 @@ const Login = () => {
                             }}>
                                 <FormControl sx={{ width: '100%'}}>
                                     <InputLabel >Senha</InputLabel>
-                                    <OutlinedInput
+                                    <OutlinedInput 
                                         color="primary"
                                         fullWidth 
                                         label="Senha"

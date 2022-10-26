@@ -8,6 +8,9 @@ import "./cart.css";
 import { Link } from "react-router-dom";
 import imgfim from '../../assets/img/koroks.webp';
 
+
+
+
 const Cart = () =>{
     const totals = Object.keys(productsCart).map(id => {
         let qtd = productsCart[id].quantity;
@@ -38,9 +41,7 @@ const Cart = () =>{
                                     alignItems: 'center'
                                 }}
                                     secondaryAction={
-                                        <IconButton style={{
-                                            color:'green',
-                                        }}sx={{
+                                        <IconButton sx={{
                                             right: '16px'
                                         }} edge="end" aria-label="delete">
                                             <DeleteIcon />
@@ -72,7 +73,7 @@ const Cart = () =>{
                                                 sx={{ 
                                                     display: 'inline',
                                                     fontWeight: '600',
-                                                    fontSize: '1.2rem'
+                                                    fontSize: '1.2em'
                                                 }}
                                                 component="h6"
                                                 variant="h6"
@@ -82,7 +83,7 @@ const Cart = () =>{
                                             <Typography
                                                 sx={{ 
                                                     display: 'inline',
-                                                    fontSize: '0.9rem',
+                                                    fontSize: '0.9em',
                                                     color: "#666666"
                                                 }}
                                                 component="p"
@@ -112,7 +113,7 @@ const Cart = () =>{
                                                     component="p"
                                                     variant="p"
                                                 >
-                                                    { productsCart[id].promo_price}
+                                                    { productsCart[id].promo_price.toLocaleString('pt-BR', {style: 'currency',currency: 'BRL'}) }
                                                 </Typography> : <span style={{
                                                   minWidth: '74px'  
                                                 }}/>
@@ -139,7 +140,7 @@ const Cart = () =>{
                                             <TextField 
                                                 size="small" 
                                                 type="number"/>
-                                        </Stack> 
+                                        </Stack>
                                     </Stack>
                                 </ListItem>
                     })
@@ -150,7 +151,7 @@ const Cart = () =>{
         <Grid item xs={12} md={12} lg={4} sx={{
             padding: '20px !important',
         }}>
-            <div className="boxsize" style={{
+            <div  style={{
                 boxSizing: 'border-box',
                 backgroundColor: "#fff",
                 borderRadius: '15px',
@@ -163,14 +164,14 @@ const Cart = () =>{
                 }} className="listTotal">
                     <li>
                         <span>Total: </span>
-                        <span>{total.toLocaleString({style: 'currency'})}</span>
+                        <span>{total.toLocaleString('pt-BR', {style: 'currency',currency: 'BRL'})}</span>
                     </li>
                     <li>
                         <span>
                             Desconto: 
                         </span>
                         <span>
-                            {totalPromo.toLocaleString({style: 'currency'})}
+                            {totalPromo.toLocaleString('pt-BR', {style: 'currency',currency: 'BRL'})}
                         </span>
                     </li>
                     <li>
@@ -178,7 +179,7 @@ const Cart = () =>{
                             Subtotal: 
                         </span>
                         <span>
-                            { (total - totalPromo).toLocaleString({style: 'currency'})}
+                            { (total - totalPromo).toLocaleString('pt-BR', {style: 'currency',currency: 'BRL'})}
                         </span>
                     </li>
                 </ul>
@@ -190,9 +191,9 @@ const Cart = () =>{
             </div>
             
                         <img src={imgfim} style={{
-                            width: '60%',
+                            width: '40%',
                             marginTop:'30px',
-                            marginLeft: '55px',
+                            marginLeft: '160px',
                         }} alt="Enfeitekoroks"/>
         </Grid>
     </Grid>
