@@ -20,7 +20,6 @@ import LoginIcon from '@mui/icons-material/Login';
 import Visibility from '@mui/icons-material/Visibility';
 import VisibilityOff from '@mui/icons-material/VisibilityOff';
 import React, { useState } from 'react';
-//import { borderBottom } from '@mui/system';
 
 
 
@@ -70,15 +69,15 @@ const Login = () => {
                             }}>
 
             
-                                <TextField fullWidth label= "E-mail" type="email" variant="outlined" style={{color:'green'}}/>
+                                <TextField fullWidth label= "E-mail" type="email" variant="outlined" color="success"/>
                             </Grid>
                             <Grid item xs={12} sx={{
                                 marginBottom: '16px'
                             }}>
                                 <FormControl sx={{ width: '100%'}}>
-                                    <InputLabel >Senha</InputLabel>
+                                    <InputLabel style={{color: 'green'}}>Senha</InputLabel>
                                     <OutlinedInput 
-                                        color="primary"
+                                        color="success"
                                         fullWidth 
                                         label="Senha"
                                         type={visibilityToggle ? 'text' : 'password'}

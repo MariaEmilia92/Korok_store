@@ -1,0 +1,14 @@
+.footertitulo{
+    margin-top: 60px;
+    padding-top: 10px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.pFooter{
+    font-size: 1.25rem;
+    color: #fff;
+    text-align: center;
+    margin: 0 0 0 0;   
+}

@@ -1,6 +1,6 @@
 
 body{
-  background-color: rgb(196, 218, 156);
+  background-color: rgb(196, 218, 156) !important;
 }
 a{
   color: #fff;

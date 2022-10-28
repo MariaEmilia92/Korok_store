@@ -2,16 +2,8 @@ import { products, categories } from './products';
 import { Button, Grid, Typography } from "@mui/material";
 import './catalog.css';
 import { Link } from "react-router-dom";
-import Carousel from 'nuka-carousel';
 
 
-<div style={{ width: "100%", margin: "auto"}}>
-<Carousel style={{margin:"auto", padding: "auto"}}>
-<img style={{ width: "100%"}} src="../img/carousel/carou_3.png" />
-<img style={{ width: "100%"}} src="../img/carousel/carou_2.png" />
-<img style={{ width: "100%"}} src="../img/carousel/carou_1.png" />
-</Carousel>
-</div>
 const Catalog = () => {
     return <Grid container spacing={4} sx={{
         marginTop: '40px',
@@ -34,13 +26,13 @@ const Catalog = () => {
                     <Typography variant="h5" component="h2">{products[id].name}</Typography>
 
                     {
-                      products[id].promo_price ? <Typography variant="p" component="p" className="promo_price">{products[id].promo_price}</Typography> : ""
+                      products[id].promo_price ? <Typography variant="p" component="p" className="promo_price">{products[id].promo_price.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'})}</Typography> : ""
                     }
                     <Typography variant="p" component="p" className="price" style={{
                         fontSize: products[id].promo_price ? '16px' : '20px',
                         color: products[id].promo_price ? '#a9a9a9' : '#333333',
                         textDecoration: products[id].promo_price ? 'line-through' : 'none',
-                    }}>{products[id].price}</Typography>
+                    }}>{products[id].price.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'})}</Typography>
 
                     <Typography variant="p" component="p">{products[id].description.substring(0, 100)}...</Typography>
                     <Link to={"../product/" + id}>

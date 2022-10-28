@@ -86,10 +86,10 @@ function App() {
           <Route exact path="/cart" element={<Cart />} />
           <Route exact path="/checkout" element={<Checkout />} />
           <Route path="/product/:id" element={<Product />} />
-          <Route exact path="/footer" element={<Footer />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </Suspense>
+      <Footer />
     </Router>
   );
 }

@@ -71,11 +71,11 @@ const Product = () => {
             <Typography variant="p" component="p" className="productItem__description" >{products[params.id].description}</Typography>
             <div className="productItem__quantity" >
                 <IconButton  onClick={() => changeQuantityButton(-1)}>
-                    <RemoveIcon color='primary'/>
+                    <RemoveIcon color="success"/>
                 </IconButton>
                 <TextField size="small" type="number" value={quantity} onChange={(event) => { setQuantity(event.target.value) }}/>
                 <IconButton onClick={() => changeQuantityButton(1)}>
-                    <AddIcon color='primary'/>
+                    <AddIcon color="success"/>
                 </IconButton>
             </div>
             <Button variant="contained" style={{backgroundColor:'green'}}size="large" endIcon={<ShoppingCartIcon />} lassName="productItem__buy">Comprar</Button>

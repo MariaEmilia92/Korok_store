@@ -1,20 +1,15 @@
 import * as React from 'react';
-import CssBaseline from '@mui/material/CssBaseline';
-import Box from '@mui/material/Box';
-import Container from '@mui/material/Container';
+import './footer.css';
 
-export default function SimpleContainer() {
+export default function SimplesContainer() {
   return (
     <React.Fragment>
-      <CssBaseline />
-      <Container maxWidth="sm">
-        <Box sx={{ bgcolor: '#cfe8fc', height: '100vh' }} />
-      </Container>
+      <div className='mediadiv' style={{ backgroundColor: 'green', height: '100%', width: '100%', }}>
+      <h1 className='footertitulo'>KorokStore</h1>
+      <p className='pFooter'>Aqui você encontra tudo o que precisa para sua aventura!</p>
+      <p className='pFooter' style={{paddingBottom: '20px'}}>Contato: korokstore@hyrule.com</p>
+      </div>
     </React.Fragment>
   );
 }
-<Container maxWidth="sm">
-    <h1>isso é um footer</h1>
-</Container>
 
-//export default Footer;

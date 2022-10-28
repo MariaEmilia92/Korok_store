@@ -63,20 +63,20 @@ const Register = () => {
                             <Grid item xs={12} sx={{
                                 marginBottom: '16px'
                             }}>
-                                <TextField fullWidth label="Usuário" type="text" variant="outlined" />
+                                <TextField fullWidth label="Usuário" type="text" variant="outlined" color="success"/>
                             </Grid>
                             <Grid item xs={12} sx={{
                                 marginBottom: '16px'
                             }}>
-                                <TextField fullWidth label="E-mail" type="email" variant="outlined" />
+                                <TextField fullWidth label="E-mail" type="email" variant="outlined" color="success"/>
                             </Grid>
                             <Grid item xs={12} sx={{
                                 marginBottom: '16px'
                             }}>
                                 <FormControl sx={{ width: '100%' }}>
-                                    <InputLabel>Senha</InputLabel>
+                                    <InputLabel style={{color: 'green'}}>Senha</InputLabel>
                                     <OutlinedInput
-                                        color="primary"
+                                        color="success"
                                         fullWidth 
                                         label="Senha"
                                         type={visibilityToggle ? 'text' : 'password'}
@@ -97,7 +97,7 @@ const Register = () => {
                                 marginBottom: '16px'
                             }}>
                                 <TextField  
-                                    color="primary"
+                                    color="success"
                                     fullWidth 
                                     label="Confirmar senha"
                                     type={visibilityToggle ? 'text' : 'password'}
