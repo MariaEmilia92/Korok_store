@@ -7,6 +7,8 @@ import { AppBar, IconButton, Toolbar, Typography } from "@mui/material";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 import LogoutIcon from "@mui/icons-material/Logout";
 import GrassIcon from '@mui/icons-material/Grass';
+import Carousel from 'nuka-carousel';
+
 
 
 const Login = lazy(() => import("./pages/login/login"));
@@ -64,6 +66,16 @@ function App() {
             </IconButton>
           </div>
         </Toolbar>
+
+        <div style={{ width: "100%", margin: "auto", color:"green"}}>
+<Carousel>
+<img alt= "" style={{ width: "100%"}} src="../img/carousel/carou_3.png" />
+<img alt= "" style={{ width: "100%"}} src="../img/carousel/carou_2.png" />
+<img alt= "" style={{ width: "100%"}} src="../img/carousel/carou_1.png" />
+</Carousel>
+</div>
+
+
       </AppBar>
       <Suspense fallback={"Carregando..."}>
         <Routes>

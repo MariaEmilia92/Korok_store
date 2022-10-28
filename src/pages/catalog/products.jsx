@@ -1,52 +1,94 @@
 
 const products = {
-  1: {
+  33: {
     name: "Milk",
     description:
       "O melhor leite da cidade, produzido no campo com a qualidade que somente Lon Lon Ranch consegue fazer.",
     images: [
-      "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/135bfa79-b0f9-4ca9-95ba-b81f8f61c8ab/deo0jo3-e19e9980-0e3b-4bb3-bc9e-b1215ab80bff.png/v1/fill/w_1024,h_855,strp/hookshot___the_legend_of_zelda_ocarina_of_time_by_bluetoad_10_deo0jo3-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9ODU1IiwicGF0aCI6IlwvZlwvMTM1YmZhNzktYjBmOS00Y2E5LTk1YmEtYjgxZjhmNjFjOGFiXC9kZW8wam8zLWUxOWU5OTgwLTBlM2ItNGJiMy1iYzllLWIxMjE1YWI4MGJmZi5wbmciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.uiuvg3WZYCrwyCflKPwnnY9ZerdMFGm7-X0ywJvz5Yk",
-      "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/135bfa79-b0f9-4ca9-95ba-b81f8f61c8ab/deo0jo3-e19e9980-0e3b-4bb3-bc9e-b1215ab80bff.png/v1/fill/w_1024,h_855,strp/hookshot___the_legend_of_zelda_ocarina_of_time_by_bluetoad_10_deo0jo3-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9ODU1IiwicGF0aCI6IlwvZlwvMTM1YmZhNzktYjBmOS00Y2E5LTk1YmEtYjgxZjhmNjFjOGFiXC9kZW8wam8zLWUxOWU5OTgwLTBlM2ItNGJiMy1iYzllLWIxMjE1YWI4MGJmZi5wbmciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.uiuvg3WZYCrwyCflKPwnnY9ZerdMFGm7-X0ywJvz5Yk",
+      "../img/produtos/leite.png",
     ],
-    price: 20.55,
+    price:20.99,
     categories: [1],
   },
-  2: {
-    name: "Length of truth",
+  1: {
+    name: "Length of Truth",
     description:
       "Com a Lente da Verdade você pode ver mais do que gostaria! Com ela você consegue achar esconderijos, portas escondias e até mesmo o que tem dentro de um baú sem precisar abri-lo.",
     images: [
-      "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/135bfa79-b0f9-4ca9-95ba-b81f8f61c8ab/deo0jo3-e19e9980-0e3b-4bb3-bc9e-b1215ab80bff.png/v1/fill/w_1024,h_855,strp/hookshot___the_legend_of_zelda_ocarina_of_time_by_bluetoad_10_deo0jo3-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9ODU1IiwicGF0aCI6IlwvZlwvMTM1YmZhNzktYjBmOS00Y2E5LTk1YmEtYjgxZjhmNjFjOGFiXC9kZW8wam8zLWUxOWU5OTgwLTBlM2ItNGJiMy1iYzllLWIxMjE1YWI4MGJmZi5wbmciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.uiuvg3WZYCrwyCflKPwnnY9ZerdMFGm7-X0ywJvz5Yk",
-      "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/135bfa79-b0f9-4ca9-95ba-b81f8f61c8ab/deo0jo3-e19e9980-0e3b-4bb3-bc9e-b1215ab80bff.png/v1/fill/w_1024,h_855,strp/hookshot___the_legend_of_zelda_ocarina_of_time_by_bluetoad_10_deo0jo3-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9ODU1IiwicGF0aCI6IlwvZlwvMTM1YmZhNzktYjBmOS00Y2E5LTk1YmEtYjgxZjhmNjFjOGFiXC9kZW8wam8zLWUxOWU5OTgwLTBlM2ItNGJiMy1iYzllLWIxMjE1YWI4MGJmZi5wbmciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.uiuvg3WZYCrwyCflKPwnnY9ZerdMFGm7-X0ywJvz5Yk",
+      "../img/produtos/lenghtoftruth.png",
     ],
     price: 300.99,
     promo_price: 220.99,
     percent: 10,
     categories: [4],
   },
-  3: {
+ 4: {
     name: "Longshot",
     description:
       "Longshot é o melhor item para escaladas e conseguir pegar aquela fruta bonita no topo da árvore.",
     images: [
-      "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/135bfa79-b0f9-4ca9-95ba-b81f8f61c8ab/deo0jo3-e19e9980-0e3b-4bb3-bc9e-b1215ab80bff.png/v1/fill/w_1024,h_855,strp/hookshot___the_legend_of_zelda_ocarina_of_time_by_bluetoad_10_deo0jo3-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9ODU1IiwicGF0aCI6IlwvZlwvMTM1YmZhNzktYjBmOS00Y2E5LTk1YmEtYjgxZjhmNjFjOGFiXC9kZW8wam8zLWUxOWU5OTgwLTBlM2ItNGJiMy1iYzllLWIxMjE1YWI4MGJmZi5wbmciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.uiuvg3WZYCrwyCflKPwnnY9ZerdMFGm7-X0ywJvz5Yk",
-      "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/135bfa79-b0f9-4ca9-95ba-b81f8f61c8ab/deo0jo3-e19e9980-0e3b-4bb3-bc9e-b1215ab80bff.png/v1/fill/w_1024,h_855,strp/hookshot___the_legend_of_zelda_ocarina_of_time_by_bluetoad_10_deo0jo3-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9ODU1IiwicGF0aCI6IlwvZlwvMTM1YmZhNzktYjBmOS00Y2E5LTk1YmEtYjgxZjhmNjFjOGFiXC9kZW8wam8zLWUxOWU5OTgwLTBlM2ItNGJiMy1iYzllLWIxMjE1YWI4MGJmZi5wbmciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.uiuvg3WZYCrwyCflKPwnnY9ZerdMFGm7-X0ywJvz5Yk",
+      "../img/produtos/longshot.png",
     ],
     price: 350.09,
     categories: [2, 4],
   },
-  4: {
+  2: {
     name: "Red Potion",
     description:
       "Com Red Potion, nem aquela ressaca de final de ano te abala mais. Com ele você recupera 100% da sua vida e força!",
     images: [
-      "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/135bfa79-b0f9-4ca9-95ba-b81f8f61c8ab/deo0jo3-e19e9980-0e3b-4bb3-bc9e-b1215ab80bff.png/v1/fill/w_1024,h_855,strp/hookshot___the_legend_of_zelda_ocarina_of_time_by_bluetoad_10_deo0jo3-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9ODU1IiwicGF0aCI6IlwvZlwvMTM1YmZhNzktYjBmOS00Y2E5LTk1YmEtYjgxZjhmNjFjOGFiXC9kZW8wam8zLWUxOWU5OTgwLTBlM2ItNGJiMy1iYzllLWIxMjE1YWI4MGJmZi5wbmciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.uiuvg3WZYCrwyCflKPwnnY9ZerdMFGm7-X0ywJvz5Yk",
-      "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/135bfa79-b0f9-4ca9-95ba-b81f8f61c8ab/deo0jo3-e19e9980-0e3b-4bb3-bc9e-b1215ab80bff.png/v1/fill/w_1024,h_855,strp/hookshot___the_legend_of_zelda_ocarina_of_time_by_bluetoad_10_deo0jo3-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9ODU1IiwicGF0aCI6IlwvZlwvMTM1YmZhNzktYjBmOS00Y2E5LTk1YmEtYjgxZjhmNjFjOGFiXC9kZW8wam8zLWUxOWU5OTgwLTBlM2ItNGJiMy1iYzllLWIxMjE1YWI4MGJmZi5wbmciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.uiuvg3WZYCrwyCflKPwnnY9ZerdMFGm7-X0ywJvz5Yk",
+      "../img/produtos/redpotion.png",
     ],
     price: 40.99,
     promo_price: 36.99,
     percent: 10,
     categories: [1, 4],
+  },
+  5: {
+    name: "Rabbit Mask",
+    description:
+      "Com essa belezinha você nunca mais vai chega atrasado nos lugares!",
+    images: [
+      "../img/produtos/coelhomask.png",
+    ],
+    price: 80.99,
+    promo_price: 76.99,
+    percent: 15,
+    categories: [3, 4],
+  },
+  6: {
+    name: "Estilingue",
+    description:
+      "Com um excelente acabamento e materiais resistentes, você não vai deixar escapar nenhum alvo!",
+    images: [
+      "../img/produtos/estilingue.png",
+    ],
+    price: 100.99,
+    percent: 15,
+    categories: [2],
+  },
+  7: {
+    name: "Heart",
+    description:
+      "Está de coração partido? Compre um hoje mesmo!",
+    images: [
+      "../img/produtos/coracon.png",
+    ],
+    price: 300.99,
+    percent: 15,
+    categories: [4],
+  },
+  8: {
+    name: "Arco e Flecha",
+    description:
+      "Essa belezinha aqui é feita da melhor madeira que existe na floresta. Com ele você acerta até mesmo os alvos mais distantes!",
+    images: [
+      "../img/produtos/arco.png",
+    ],
+    price: 200.99,
+    promo_price: 188.99,
+    percent: 15,
+    categories: [2],
   },
 };
 

@@ -2,12 +2,19 @@ import { products, categories } from './products';
 import { Button, Grid, Typography } from "@mui/material";
 import './catalog.css';
 import { Link } from "react-router-dom";
+import Carousel from 'nuka-carousel';
 
 
-
+<div style={{ width: "100%", margin: "auto"}}>
+<Carousel style={{margin:"auto", padding: "auto"}}>
+<img style={{ width: "100%"}} src="../img/carousel/carou_3.png" />
+<img style={{ width: "100%"}} src="../img/carousel/carou_2.png" />
+<img style={{ width: "100%"}} src="../img/carousel/carou_1.png" />
+</Carousel>
+</div>
 const Catalog = () => {
     return <Grid container spacing={4} sx={{
-        marginTop: '10px',
+        marginTop: '40px',
         paddingLeft: '32px',
         paddingRight: '32px',
         boxSizing: 'border-box'

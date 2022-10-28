@@ -8,6 +8,11 @@ a{
   text-transform: uppercase;
 }
 
+.css-hip9hq-MuiPaper-root-MuiAppBar-root{
+  background: none !important;
+  box-shadow: none !important;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

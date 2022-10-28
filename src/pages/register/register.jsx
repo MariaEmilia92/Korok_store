@@ -75,7 +75,7 @@ const Register = () => {
                             }}>
                                 <FormControl sx={{ width: '100%' }}>
                                     <InputLabel>Senha</InputLabel>
-                                    <OutlinedInput  
+                                    <OutlinedInput
                                         color="primary"
                                         fullWidth 
                                         label="Senha"
