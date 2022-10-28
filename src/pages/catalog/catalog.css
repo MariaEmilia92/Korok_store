@@ -42,6 +42,7 @@
 .catalog-item p{
     float: left;
     margin-bottom: 16px;
+    min-height: 80px;
 }
 
 .catalog-item .promo_price{

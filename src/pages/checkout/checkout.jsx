@@ -40,6 +40,7 @@ const Checkout = () => {
                     <Grid container spacing={2}>
                         <Grid item xs={12} md={6}>
                             <TextField
+                                color="success"
                                 fullWidth
                                 variant={variantType}
                                 label="Nome"
@@ -47,6 +48,7 @@ const Checkout = () => {
                         </Grid>
                         <Grid item xs={12} md={6}>
                             <TextField
+                                color="success"
                                 fullWidth
                                 variant={variantType}
                                 label="Sobrenome"
@@ -54,6 +56,7 @@ const Checkout = () => {
                         </Grid>
                         <Grid item xs={12} md={6}>
                             <TextField
+                                color="success"
                                 fullWidth
                                 variant={variantType}
                                 label="CPF"
@@ -61,6 +64,7 @@ const Checkout = () => {
                         </Grid>
                         <Grid item xs={12} md={6}>
                             <TextField
+                                color="success"
                                 fullWidth
                                 variant={variantType}
                                 label="Telefone"
@@ -68,6 +72,7 @@ const Checkout = () => {
                         </Grid>
                         <Grid item xs={12}>
                             <TextField
+                                color="success"
                                 fullWidth
                                 variant={variantType}
                                 label="E-mail"
@@ -75,6 +80,7 @@ const Checkout = () => {
                         </Grid>
                         <Grid item xs={12} sm={6} md={4}>
                             <TextField
+                                color="success"
                                 fullWidth
                                 variant={variantType}
                                 label="Endereço"
@@ -82,6 +88,7 @@ const Checkout = () => {
                         </Grid>
                         <Grid item xs={12} sm={3} md={2}>
                             <TextField
+                            color="success"
                                 fullWidth
                                 variant={variantType}
                                 label="Número"
@@ -89,6 +96,7 @@ const Checkout = () => {
                         </Grid>
                         <Grid item xs={12} sm={3} md={2}>
                             <TextField
+                                color="success"
                                 fullWidth
                                 variant={variantType}
                                 label="Complemento"
@@ -96,6 +104,7 @@ const Checkout = () => {
                         </Grid>
                         <Grid item xs={12} sm={12} md={4}>
                             <TextField
+                                color="success"
                                 fullWidth
                                 variant={variantType}
                                 label="CEP"
@@ -103,6 +112,7 @@ const Checkout = () => {
                         </Grid>
                         <Grid item xs={12} md={4}>
                             <TextField
+                                color="success"
                                 fullWidth
                                 variant={variantType}
                                 label="Bairro"
@@ -110,6 +120,7 @@ const Checkout = () => {
                         </Grid>
                         <Grid item xs={12} md={4}>
                             <TextField
+                                color="success"
                                 fullWidth
                                 variant={variantType}
                                 label="Cidade"
@@ -117,6 +128,7 @@ const Checkout = () => {
                         </Grid>
                         <Grid item xs={12} md={4}>
                             <TextField
+                                color="success"
                                 fullWidth
                                 variant={variantType}
                                 label="Estado"
@@ -129,6 +141,7 @@ const Checkout = () => {
                     <Grid container spacing={2}>
                         <Grid item xs={12}>
                             <TextField
+                                color="success"
                                 fullWidth
                                 variant={variantType}
                                 label="Nome impresso no cartão"
@@ -136,6 +149,7 @@ const Checkout = () => {
                         </Grid>
                         <Grid item xs={12}>
                             <TextField
+                                color="success"
                                 fullWidth
                                 variant={variantType}
                                 label="Número do cartão"
@@ -143,6 +157,7 @@ const Checkout = () => {
                         </Grid>
                         <Grid item xs={12} md={6}>
                             <TextField 
+                                color="success"
                                 fullWidth
                                 variant={variantType}
                                 label="Código de seg."
@@ -152,6 +167,7 @@ const Checkout = () => {
                         </Grid>
                         <Grid item xs={12} md={6}>
                             <TextField 
+                                 color="success"
                                 fullWidth
                                 variant={variantType}
                                 label="Data de vencimento"

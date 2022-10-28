@@ -191,9 +191,9 @@ const Cart = () =>{
             </div>
             
                         <img src={imgfim} style={{
-                            width: '40%',
+                            width: '50%',
                             marginTop:'30px',
-                            marginLeft: '160px',
+                            marginLeft: '100px',
                         }} alt="Enfeitekoroks"/>
         </Grid>
     </Grid>
